@@ -84,14 +84,13 @@ h2,
 
 p {
   font: 300 14px/26px "Poppins", sans-serif;
-  color: #82898f;
+  color: black !important;
 }
 
 li {
   font: 300 14px/26px "Poppins", sans-serif;
   color: #82898f;
 }
-
 /*============= BOXED Patterns =============*/
 .boxed {
   max-width: 1200px;
@@ -102,62 +101,6 @@ li {
 [class^="pattern"] {
   background-repeat: repeat;
   background-position: top center;
-}
-
-.pattern_1 {
-  background-image: url("../images/patterns/pattern_1.png");
-}
-
-.pattern_2 {
-  background-image: url("../images/patterns/pattern_2.png");
-}
-
-.pattern_3 {
-  background-image: url("../images/patterns/pattern_3.png");
-}
-
-.pattern_4 {
-  background-image: url("../images/patterns/pattern_4.png");
-}
-
-.pattern_5 {
-  background-image: url("../images/patterns/pattern_5.png");
-}
-
-.pattern_6 {
-  background-image: url("../images/patterns/pattern_6.png");
-}
-
-.pattern_7 {
-  background-image: url("../images/patterns/pattern_7.png");
-}
-
-.pattern_8 {
-  background-image: url("../images/patterns/pattern_8.png");
-}
-
-.pattern_9 {
-  background-image: url("../images/patterns/pattern_9.png");
-}
-
-.pattern_10 {
-  background-image: url("../images/patterns/pattern_10.png");
-}
-
-.pattern_11 {
-  background-image: url("../images/patterns/pattern_11.png");
-}
-
-.pattern_12 {
-  background-image: url("../images/patterns/pattern_12.png");
-}
-
-.pattern_13 {
-  background-image: url("../images/patterns/pattern_13.png");
-}
-
-.pattern_14 {
-  background-image: url("../images/patterns/pattern_14.png");
 }
 
 /*============= Buttons =============*/
@@ -650,16 +593,9 @@ textarea.form-control {
 
 /*-----------------------*/
 .section-header {
+  color: black !important;
   margin-bottom: 50px;
   text-align: center;
-}
-
-.section-header:after {
-  content: '';
-  width: 82px;
-  height: 6px;
-  display: block;
-  margin: 0 auto;
 }
 
 .section-header h2 {
@@ -1173,23 +1109,6 @@ header.video-bg {
   -webkit-transform: none !important;
       -ms-transform: none !important;
           transform: none !important;
-}
-
-/*RASTER OVERLAY*/
-.YTPOverlay.raster {
-  background: url("../images/raster.png");
-}
-
-.YTPOverlay.raster.retina {
-  background: url("../images/raster@2x.png");
-}
-
-.YTPOverlay.raster-dot {
-  background: url("../images/raster_dot.png");
-}
-
-.YTPOverlay.raster-dot.retina {
-  background: url("../images/raster_dot@2x.png");
 }
 
 /*VOLUME SLIDER*/
